@@ -8,6 +8,7 @@ def Rev(lst):
 n = int(input('Enter size of array: '))
 lst = []
 
+print('Enter Elements of the list: ')
 for i in range(0, n): 
     ele = int(input()) 
   
