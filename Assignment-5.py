@@ -1,21 +1,20 @@
 #Bubble sort
 
-arr= input('Enetr list elements: ').split()
-print(arr)
-for i in range(len(arr)):
+Lst= input('Enetr list elements: ').split()
+print(Lst)
+for i in range(len(Lst)):
     # print('iteration ',i)
     flag=0 
-    for j in range(len(arr)-1):
+    for j in range(len(Lst)-1):
 
-        if arr[j]>=arr[j+1]:
-            arr[j],arr[j+1]=arr[j+1],arr[j]
+        if Lst[j]>=Lst[j+1]:
+            Lst[j],Lst[j+1]=Lst[j+1],Lst[j]
             flag=1
-            # print(arr)
+            # print(Lst)
 
     if flag == 0:
-        print("Already sorted")
         break
 
 
-print('Sorted list: ',arr)
+print('Sorted list: ',Lst)
 
